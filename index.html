@@ -1,0 +1,479 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><link rel="icon"><img src="a2.jpg"></link>
+   PKL 10 Kabaddi.p^3 sports</title>
+
+<style>
+  body { font-family: Arial, sans-serif;
+  background-color: rgb(240, 219, 142) ;;
+background-image: url("blue.jpg"); }
+  .container { width: 80%; margin: auto; }
+  header { background-image:url(ground.jpg) ; color: yellow; padding:  40px 0; text-align: center; }
+  nav { background: #006699; padding: 10px 0; }
+  nav ul { list-style-type: rgb(236, 33, 33); text-decoration-style:solid;}
+  nav ul li { display: inline; margin-right: 10px;color:black);}
+  nav a { color: lightgreen; text-decoration: none; }
+  section  {color-interpolation-filters: linearRGB;color:#de6b1e; background-attachment: fixed;background-image: url("blue.jpg");background-position:0ch; margin: 20px 0; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+  th { background: #f2f2f2; }
+  footer {   background-image:url("car.jpg") white; text-align: center; padding: 10px 0; }
+  
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1><img src="a1.jpg"alt=pkl height="50" width="100"> Pro Kabaddi League Season 10<img src="a3.webp"alt=pkl height="50" width="100"> 
+    </h1>
+  </header>
+<style>
+
+.slideshow-container {
+  width: 500px;
+  height: 450px;
+  position: relative;
+  margin: auto;
+}
+
+
+.slide {
+  display: flow-root;
+}
+
+
+.slide img {
+  width: 100%;
+  height: 69%;
+  object-fit: cover;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+box-shadow: #de6b1e;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #e4761b;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #717171;
+}
+.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 16px;
+  color: rgb(52, 215, 169);
+  font-weight: bold;
+  font-size: 18px;
+  border: orangered;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.button.left {
+  left: 0;
+}
+
+.button.right {
+  right: 0;
+}
+
+.button:hover {
+  opacity: 5;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+  <div class="slide">
+    <img src="p10.jpg" alt="Image 1">
+  </div>
+
+  <div class="slide">
+    <img src="bb.jpg" alt="Image 2">
+  </div>
+
+  <div class="slide">
+    <img src="bw.jpg" alt="Image 3">
+  </div>
+
+  <div class="slide">
+    <img src="dd.jpg" alt="Image 4">
+  </div>
+
+  <div class="slide">
+    <img src="GF.jpg" alt="Image 5">
+  </div>
+
+  <div class="slide">
+    <img src="hs.jpg" alt="Image 6">
+  </div>
+
+  <div class="slide">
+    <img src="jp.jpg" alt="Image 7">
+  </div>
+
+  <div class="slide">
+    <img src="ppa.jpg" alt="Image 8">
+  </div>
+
+  <div class="slide">
+    <img src="PP.jpg" alt="Image 9">
+  </div>
+
+  <div class="slide">
+    <img src="um.jpg" alt="Image 10">
+  </div>
+  </div>
+
+  <button class="button left" onclick="previousSlide()">&#10094;</button>
+  <button class="button right" onclick="nextSlide()">&#10095;</button>
+
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="showSlide(1)"></span>
+  <span class="dot" onclick="showSlide(2)"></span>
+  <span class="dot" onclick="showSlide(3)"></span>
+  <span class="dot" onclick="showSlide(4)"></span>
+  <span class="dot" onclick="showSlide(5)"></span>
+  <span class="dot" onclick="showSlide(6)"></span>
+  <span class="dot" onclick="showSlide(7)"></span>
+  <span class="dot" onclick="showSlide(8)"></span>
+  <span class="dot" onclick="showSlide(9)"></span>
+  <span class="dot" onclick="showSlide(10)"></span>
+</div>
+
+<script>
+let slideIndex = 1;
+
+function showSlide(n) {
+  
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+
+function plusSlides(n) {
+  showSlide(slideIndex += n);
+}
+
+function previousSlide() {
+  plusSlides(-1);
+}
+
+function nextSlide() {
+  plusSlides(1);
+}
+showSlide(slideIndex);
+</script>
+
+
+
+  
+  
+<style>
+.vote{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.vote:hover {background-color: #3e8e41}
+
+.vote:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.poll {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+<h1>Who is your favorite raider in PKL 10?</h1>
+
+<div class="poll">
+  
+  <button class="vote" onclick="vote('Maninder Singh')">Maninder Singh</button>
+  <button class="vote" onclick="vote('Pawan Sehrawat')">Pawan Sehrawat</button>
+  <button class="vote" onclick="vote('Arjun Deshwal')">Arjun Deshwal</button>
+  <button class="vote" onclick="vote('Surender Gill')">Surender Gill</button>
+  <button class="vote" onclick="vote('Naveen Kumar')">Naveen Kumar</button>
+  <p id="result"></p>
+</div>
+<script>
+
+function vote(raider) {
+  
+  var result = document.getElementById("result");
+  result.innerHTML = "You voted for " + raider + ". Thank you for your vote!";
+}
+</script>
+
+
+  <style>
+    p{color:#c00f0f}
+  </style>
+
+  <h1>Pro Kabaddi League Season 10</h1>
+  <p>The Pro Kabaddi League is an Indian men's professional kabaddi league that was launched in 2014 and is broadcast on Star Sports. It is the most popular kabaddi league in the world and the eighth most watched sports league in India.</p>
+  <p>The 10th season of the league will start on December 2, 2023 and will feature 12 teams competing in a double round-robin format followed by playoffs. The teams are divided into two zones: Zone A and Zone B. Each team will play 22 matches in the league stage.</p>
+  <p>The teams participating in the 10th season are Bengal Warriors, Bengaluru Bulls, Dabang Delhi K.C., Gujarat Giants, Haryana Steelers, Jaipur Pink Panthers, Patna Pirates, Puneri Paltan, Tamil Thalaivas, Telugu Titans, U Mumba, and UP Yoddha.</p>
+  <p>The most expensive players in the 10th season auction were Pawan Sehrawat, Mohammadreza Chiyaneh, Maninder Singh, Fazel Atrachali, and Arjun Deshwal.</p>
+  <p>The current champions are Jaipur Pink Panthers, who won their second title in the 2022 edition by defeating Puneri Paltan in the final. The most successful team in the history of the league is Patna Pirates, who have won three titles in a row.</p>
+
+  <nav>
+    <ul>
+      <li><a href="#captains">Captains</a></li>
+      <li><a href="#players">Players</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#stats">Star Raiders Stats</a></li>
+      </ul>
+  
+  </nav>
+
+
+
+
+  <section id="captains">
+    <h2><i><span style="color: orangered"> Team captains</span> </i></h2>
+  
+    <img src="a4.webp"alt=pkl height="400" width="600">   
+
+
+    
+<style>
+.bengal-warriors {
+  color: blue;
+}
+
+.bengaluru-bulls {
+  color: rgb(244, 24, 24);
+}
+
+.dabang-delhi {
+  color: green;
+}
+
+.gujarat-giants {
+  color: orange;
+}
+
+.haryana-steelers {
+  color: rgb(13, 28, 164);
+}
+
+.jaipur-pink-panthers {
+  color: rgb(250, 62, 178);
+}
+
+.patna-pirates {
+  color: purple;
+}
+
+.puneri-paltan {
+  color: brown;
+}
+
+.tamil-thalaivas {
+  color: maroon;
+}
+
+.telugu-titans {
+  color: rgb(207, 179, 18);
+}
+
+.u-mumba {
+  color: navy;
+}
+
+.up-yoddhas {
+  color: olive;
+}
+
+
+</style>
+
+<h1>PKL 10 Teams and Captains</h1>
+<ul>
+<li class="bengal-warriors"> <a href="https://www.prokabaddi.com/teams/bengal-warriors-profile-4/players" style="color:darkblue">Bengal Warriors - Mahinder Singh</a></li>
+<li class="bengaluru-bulls"><a href="https://www.prokabaddi.com/teams/bengaluru-bulls-profile-1/players">Bengaluru Bulls - Saurabh Nandal</a></li>
+<li class="dabang-delhi">Dabang Delhi - Naveen Kumar </li>
+<li class="gujarat-giants">Gujarat Giants - Fazel Atrachali</li>
+<li class="haryana-steelers">Haryana Steelers - Jaideep Dahiya and Mohit Nandal</li>
+<li class="jaipur-pink-panthers">Jaipur Pink Panthers - Sunil Kumar Malik</li>
+<li class="patna-pirates">Patna Pirates - Neeraj Kumar</li>
+<li class="puneri-paltan">Puneri Paltan - Aslam Inamdar</li>
+<li class="tamil-thalaivas">Tamil Thalaivas - Sagar Rathee</li>
+<li class="telugu-titans">Telugu Titans - Pawan Kumar Sehrawat</li>
+<li class="u-mumba">U Mumba - Surinder Singh</li>
+<li class="up-yoddhas">UP Yoddhas - Pradeep Narwal</li>
+</ul>
+  </section>
+
+  <img src="ground.jpg"alt="pkl"
+  width="600"height="300">
+ <section>
+
+ 
+ </section>
+
+  <section id="players">
+    <h2>Players List</h2>
+    <!-- Add players list here -->
+    <img scr:google.com>link for pkl 10 new squads </img>
+     <a href="https://sportstar.thehindu.com/kabaddi/pkl-auction-2023-pro-kabaddi-league-season-10-auction-12-team-squads-players-list-expensive-buy/article67403659.ece>pro-kabaddi-all-teams-full-squads-2023-pkl-10-players-list">
+      *"all teams squads"</a>
+  </section>
+  <section id="schedule">
+    <h2>Schedule</h2>
+    <!-- Add schedule here -->
+    <a href="https://www.prokabaddi.com/schedule-fixtures-results">pkl 10 schedule</a>
+  </section>
+<p><span style="color:darkgreen">To watch the live of the pkl 10 freely then click on the below link</span></p>
+<p><a href="https://www.hotstar.com/in/sports/kabaddi" style="color:dark blue";> live of pkl 10 for free in disney + hotstar</a></p>
+
+
+</div>
+<b>pkl  10 most expensive players</b>
+
+<img src="a5.jpg" alt="most expensive players" height="400" width="670" style="color:violet" style="font-style: unset ;">
+<ul> <li><b>Pawan Sehrawat</b>, bought by Telugu Titans for ₹ 2.605 crore</li>
+  <li> <b> Mohammadreza Chiyaneh,</b>bought by Puneri Paltan for ₹ 2.35 crore</li>
+    <li> <b>Maninder Singh</b> retained by Bengal Warriors for ₹ 2.12 crore</li>
+      <li> <b>Atrachali</b>, bought by Gujarat Giants for ₹ 1.60 crore</li>
+        <li> <b>Arjun Deshwal,</b> retained by Jaipur Pink Panthers for ₹ 1.15 crore</li> </ul>
+
+
+
+
+  <section id="stats">
+    <h2>Star Raiders</h2>
+
+    <legend>PAWAN KUMAR SHERAWANT<a href="https://www.prokabaddi.com/players/pawan-sehrawat-profile-318"><B>  STATS </B> </a></legend>
+    <legend>NAVEEN KMUAR<a href="https://www.prokabaddi.com/players/Naveen-Kumar-profile-2296"><B>  STATS & RECORDS</B></a> </legend>
+   <H2> <P><I>some more super stars stats you can find in the below link:</I></P></H2>
+    <a href="https://www.prokabaddi.com/stats"><B>STATS OF STARS</B></a>
+
+
+    <HR>
+  <footer><style>
+    .vote{
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #1ca8ad;
+      border: none;
+      border-radius: 15px;
+      box-shadow: oklab(from color l a b) 9px #999;
+    }
+    
+    .vote:hover {background-color: #064674}
+    
+    .vote:active {
+      background-color: #19a3ab;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+    .poll {
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    </style>
+    </head>
+    <body>
+    <h1>Which is your favorite team  in PKL 10?</h1>
+    
+    <div class="poll">
+      
+      <button class="vote" onclick="vote('bengaluru bulls')">bengaluru</button>
+      <button class="vote" onclick="vote('patna pirates')">patna</button>
+      <button class="vote" onclick="vote('bengal warriors')">bengal</button>
+      <button class="vote" onclick="vote('umumba')">mumbai</button>
+      <button class="vote" onclick="vote('dabang delhi')">Delhi</button>
+      <p id="result"></p>
+    </div>
+    <script>
+    
+    function vote(team) {
+      
+      var result = document.getElementById("result");
+      result.innerHTML = "You voted for " + team + ". Thank you for your vote!";
+    }
+    </script>
+
+
+  
+<H3 style="color: #4CAF50;">SPONSORS</H3>
+<img src="dream11.jpg"align-items="middle"alt="dream">
+
+
+   <div><img src="s1.jpg"alt="s1"align-items="center">
+<img src="s2.jpg"alt="s2">
+<img src="s3.jpg"align-items="middle"alt="s3"> </div>
+    <p>&copy; PKL 10 Kabaddi League</p>
+    <P>&COPY; <SPORTS class="COM"><MARK> P^3 SPORTS.COM</MARK></SPORTS></P>
+  </footer>
+</div>
+</body>
+</html>
